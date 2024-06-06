@@ -48,8 +48,7 @@ function calcular() {
     console.log(`Linguiça Total: ${resultado.linguica} kg`);
     console.log(`Refrigerante Total: ${resultado.refrigerante} litros`);
     console.log(`Cerveja Total: ${resultado.cerveja} litros`);
-<<<<<<< HEAD
-=======
+
 
     let resultadoDiv = window.document.getElementById('resultado')
     
