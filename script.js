@@ -60,5 +60,5 @@ function calcular() {
         <p>Refrigerante Total: ${resultado.refrigerante} litros</p>
         <p>Cerveja Total: ${resultado.cerveja} litros</p>
     `
->>>>>>> temp-branch
+
 }
