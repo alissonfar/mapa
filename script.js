@@ -48,4 +48,17 @@ function calcular() {
     console.log(`Linguiça Total: ${resultado.linguica} kg`);
     console.log(`Refrigerante Total: ${resultado.refrigerante} litros`);
     console.log(`Cerveja Total: ${resultado.cerveja} litros`);
+<<<<<<< HEAD
+=======
+
+    let resultadoDiv = window.document.getElementById('resultado')
+    
+    resultadoDiv.innerHTML = `
+        <p>Carne Bovina Total: ${resultado.carneBovina} kg</p>
+        <p>Carne de Frango Total: ${resultado.carneFrango} kg</p>
+        <p>Linguiça Total: ${resultado.linguica} kg</p>
+        <p>Refrigerante Total: ${resultado.refrigerante} litros</p>
+        <p>Cerveja Total: ${resultado.cerveja} litros</p>
+    `
+>>>>>>> temp-branch
 }
