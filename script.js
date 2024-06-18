@@ -45,7 +45,7 @@ function calcular() {
 
     console.log(`Carne Bovina Total: ${resultado.carneBovina} kg`);
     console.log(`Carne de Frango Total: ${resultado.carneFrango} kg`);
-    console.log(`Linguiça Total: ${resultado.linguica} kg`);
+    console.log(`Linguiça Total: ${resultado.linguiça} kg`);
     console.log(`Refrigerante Total: ${resultado.refrigerante} litros`);
     console.log(`Cerveja Total: ${resultado.cerveja} litros`);
 
@@ -55,7 +55,7 @@ function calcular() {
     resultadoDiv.innerHTML = `
         <p>Carne Bovina Total: ${resultado.carneBovina} kg</p>
         <p>Carne de Frango Total: ${resultado.carneFrango} kg</p>
-        <p>Linguiça Total: ${resultado.linguica} kg</p>
+        <p>Linguiça Total: ${resultado.linguiça} kg</p>
         <p>Refrigerante Total: ${resultado.refrigerante} litros</p>
         <p>Cerveja Total: ${resultado.cerveja} litros</p>
     `
